@@ -1,0 +1,2 @@
+download next.js app
+ => npx create-next-app@latest ./ (or appName)
