@@ -5,3 +5,8 @@ download next.js app
 in dynamic routes
     => make [folderID]
     => call params.folderID
+
+
+for not found page 
+    => create not-found.tsx file on the app folder
+    => function name: NotFound
