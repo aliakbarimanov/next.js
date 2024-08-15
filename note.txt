@@ -1,2 +1,7 @@
 download next.js app
  => npx create-next-app@latest ./ (or appName)
+
+
+in dynamic routes
+    => make [folderID]
+    => call params.folderID
