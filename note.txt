@@ -10,3 +10,13 @@ in dynamic routes
 for not found page 
     => create not-found.tsx file on the app folder
     => function name: NotFound
+
+
+for private folders
+    => (underscore)foldername
+    => example: _lib
+
+
+for routing private routes
+    => write folder name in rounded brackets.
+    => example: (auth)
