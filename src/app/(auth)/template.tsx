@@ -1,5 +1,7 @@
 "use client"
 
+import { useState } from "react";
+
 import Link from "next/link"
 
 import { usePathname } from "next/navigation";
@@ -25,6 +27,8 @@ export default function RootLayout({
   //! usePathname is working only clinet side
   const pathname = usePathname();
 
+  const [username, setUsername] = useState("");
+
   return (
     <html lang="en">
       <div>
@@ -37,6 +41,7 @@ export default function RootLayout({
           )
         })}
       </div>
+      <input type="text" className="border-slate-950" value={username} onChange={e => setUsername(e.target.value)} />
       <body>{children}</body>
     </html>
   )
