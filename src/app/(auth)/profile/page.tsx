@@ -1,5 +1,5 @@
 export default function Profile() {
     return (
-        <section>Profile page</section>
+        <section>Profile page!!!</section>
     )
 }
