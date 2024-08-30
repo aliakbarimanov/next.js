@@ -20,3 +20,13 @@ for private folders
 for routing private routes
     => write folder name in rounded brackets.
     => example: (auth)
+
+
+
+special files
+    => 
+        - layout.tsx
+        - page.tsx
+        - template.tsx
+        - not-found.tsx
+        - loading.tsx
